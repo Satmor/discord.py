@@ -471,6 +471,12 @@ class ButtonStyle(Enum):
     danger = 4
     link = 5
 
+    # Aliases
+    blurple = 1
+    grey = 2
+    green = 3
+    red = 4
+
     def __int__(self):
         return self.value
 
